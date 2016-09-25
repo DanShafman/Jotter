@@ -21,12 +21,15 @@ class EntryViewController: UIViewController, UINavigationControllerDelegate, UII
     @IBOutlet weak var settingsButton: UIButton!
     @IBOutlet weak var myJotsButton: UIButton!
     
+    let prefs:NSUserDefaults = NSUserDefaults.standardUserDefaults()
+    
     var imagePicker: UIImagePickerController!
     var jotImage: UIImage?
-    var x: Int?
+    var refImage: UIImage?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+//        try! FIRAuth.auth()?.signOut()
         setUpCardShadows()
         setUpButtons()
         // Do any additional setup after loading the view, typically from a nib.
@@ -42,7 +45,8 @@ class EntryViewController: UIViewController, UINavigationControllerDelegate, UII
             let destination = segue.destinationViewController as! JotTakenViewController
             destination.jotImage = self.jotImage
         } else if segue.identifier == "capture_existing" {
-            
+            let destination = segue.destinationViewController as! CaptureExistingViewController
+            destination.refImage = self.refImage
         }
     }
     
@@ -105,7 +109,17 @@ class EntryViewController: UIViewController, UINavigationControllerDelegate, UII
     }
     
     func capExistingPressed(sender: UIButton) {
-        self.performSegueWithIdentifier("capture_existing", sender: self)
+        let cameraViewController = CameraViewController(croppingEnabled: true) { [weak self] image, asset in
+            if image != nil {
+                self?.refImage = image
+            }
+            self?.dismissViewControllerAnimated(true) {
+                if image != nil {
+                    self?.performSegueWithIdentifier("capture_existing", sender: self)
+                }
+            }
+        }
+        presentViewController(cameraViewController, animated: true, completion: nil)
     }
     
     func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {

@@ -15,17 +15,9 @@ class GoogleAuthViewController: UIViewController, GIDSignInUIDelegate {
         super.viewDidLoad()
         GIDSignIn.sharedInstance().uiDelegate = self
         
-//        let ref = Firebase(url: "https://<YOUR-FIREBASE-APP>.firebaseio.com")
-//        if ref.authData != nil {
-//            // user authenticated
-//            println(ref.authData)
-//        } else {
-//            // No user is signed in
-//        }
+//        print("\n\n\n" + String(FIRAuth.auth()?.currentUser?.uid) + "\n\n\n")
         
-        print("\n\n\n" + String(FIRAuth.auth()?.currentUser?.uid) + "\n\n\n")
-        
-//        GIDSignIn.sharedInstance().signInSilently()
+        GIDSignIn.sharedInstance().signInSilently()
         if FIRAuth.auth()?.currentUser != nil {
             dispatch_async(dispatch_get_main_queue()) {
                 [unowned self] in

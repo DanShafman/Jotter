@@ -18,6 +18,7 @@ class JotTakenViewController: UIViewController, UITextFieldDelegate {
     
     let storage = FIRStorage.storage()
     let metadata = FIRStorageMetadata()
+    let prefs: NSUserDefaults = NSUserDefaults.standardUserDefaults()
     
     var num = 0
     
@@ -40,7 +41,12 @@ class JotTakenViewController: UIViewController, UITextFieldDelegate {
         let uploadPath = FIRDatabase.database().reference().child("/"+userName!+"/currentImg")
         metadata.contentType = "image/jpeg"
 //        let fileName = String(NSDate()) + ".jpg"
-        let fileName = "jot" + 
+        
+        prefs.synchronize()
+        let decoded  = prefs.objectForKey("interval") as! NSData
+        var x = NSKeyedUnarchiver.unarchiveObjectWithData(decoded) as! Int
+        let fileName = "jot" + String(x)
+        incrementJots()
         let jotImgRef = imagesRef.child(fileName)
         let imageData: NSData = UIImagePNGRepresentation(jotImage!)!
         let pathName = (FIRAuth.auth()?.currentUser?.uid)! + "/" + fileName
@@ -76,6 +82,18 @@ class JotTakenViewController: UIViewController, UITextFieldDelegate {
             alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.Default, handler: nil))
             self.presentViewController(alert, animated: true, completion: nil)
         }
+    }
+    
+    func incrementJots() {
+        prefs.synchronize()
+        let decoded  = prefs.objectForKey("interval") as! NSData
+        var x = NSKeyedUnarchiver.unarchiveObjectWithData(decoded) as! Int
+        print(x)
+        x++
+        print(x)
+        let encodedData = NSKeyedArchiver.archivedDataWithRootObject(x)
+        prefs.setObject(encodedData, forKey: "interval")
+        prefs.synchronize()
     }
     
 }

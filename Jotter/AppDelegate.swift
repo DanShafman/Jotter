@@ -69,9 +69,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
         let credential = FIRGoogleAuthProvider.credentialWithIDToken((authentication?.idToken)!, accessToken: (authentication?.accessToken)!)
         
         FIRAuth.auth()?.signInWithCredential(credential) { (user, error) in
-            
         }
-        // ...
     }
     
     func signIn(signIn: GIDSignIn!, didDisconnectWithUser user:GIDGoogleUser!,
