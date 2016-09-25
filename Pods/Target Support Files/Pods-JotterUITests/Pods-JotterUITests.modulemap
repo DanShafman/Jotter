@@ -1,0 +1,6 @@
+framework module Pods_JotterUITests {
+  umbrella header "Pods-JotterUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

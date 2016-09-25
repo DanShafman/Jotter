@@ -1,0 +1,1212 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01C801142CF1DDCC7E27FE6BDDB0330E /* ALCameraViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55476A048E14E3E0A06ED8E90654DCB4 /* ALCameraViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		021C49B68ABA1D2B856CE205FCF14306 /* Pods-JotterTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E562C53AABEE62DAB9DC6E1E3E909F78 /* Pods-JotterTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07891D056A74F00843EBB37C7B0AA82E /* PermissionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD68047F665B5D9DC50E0AB311DBF34E /* PermissionsView.swift */; };
+		252736BA92E653FD2433CB88DE934250 /* Pods-JotterUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A065FE4A7E763834739F1C42B937F46 /* Pods-JotterUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4278EAF612324002CA1BF7674E92FF40 /* SingleImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB85912FE80D631CF00A23E56108C6E7 /* SingleImageSaver.swift */; };
+		44C9D7265DC9AAE0DCF627272255E587 /* PhotoLibraryAuthorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5611F1E4C69A19D6BD50B52C49DC7B60 /* PhotoLibraryAuthorizer.swift */; };
+		45A5DFC680091E598650261FD73F2AD9 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B28E5850A7FE4CA48EE3DAA76D5E57D /* CameraView.swift */; };
+		4730C39DA90FA87EC7FE5A6816675957 /* CameraView.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B36DE6D9F2C16C919DB9F046BB43FD6 /* CameraView.strings */; };
+		4CA00025C68A464A2C14024DE2586A5D /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A130EC4C9858ACE26757262EF9695C /* CameraViewController.swift */; };
+		541E21CC80FE4C888DF433CAE89D0AC6 /* Pods-JotterUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC19E5B622BAE6CDEE2B720B5008704D /* Pods-JotterUITests-dummy.m */; };
+		5D9FEB0C061F876ADF29DF977BCF7676 /* PhotoLibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B5A162ABD0E412873B54DE11C69E87 /* PhotoLibraryViewController.swift */; };
+		6D767EEA9E55E31E9CB3DBD3446CAAB9 /* Pods-JotterTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 326A6CB181906173A01C6FAE2BF3DCD4 /* Pods-JotterTests-dummy.m */; };
+		752BD03D839F010C99D38E5999FDF818 /* VolumeControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4358C7F166DD485B46B63BAF2F8899 /* VolumeControl.swift */; };
+		78AB6DDAACAD9FB138A3FACEB81EDEF1 /* CameraViewAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9655386FC5FA0E65D97F1FF55FE845A /* CameraViewAssets.xcassets */; };
+		8BA5172B9526726D272ED08AAC9440CE /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F253BFF11879B341F12AE85E0B82588E /* ImageCell.swift */; };
+		8F3E5D23F9D7B0FE216D5A07DE720C45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		923166B09C7E9BEB27FD1D6EB16D0332 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF97B4D535FB26894F0739DE3519AE2 /* Utilities.swift */; };
+		9272F88C49CF9B1DB99860E69038B9E0 /* UIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33BBB3762FA64119F8D078ABD905825 /* UIButtonExtensions.swift */; };
+		92E3CC7C7A06C0F81A0AB6CBD55452BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		9837F1436AAAB731A324C6E286497D4A /* Pods-Jotter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47064B5BA467E80FE2164E44FE4EF4B1 /* Pods-Jotter-dummy.m */; };
+		9A7E70B45F14FF42ABA3F92F4AE05980 /* CropOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B65E0719DCE462666FC784560C2579 /* CropOverlay.swift */; };
+		9EA831A5C3CCC95ADA6CD59182FD039F /* Pods-Jotter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D3C741E0A2DBB75683333D66AE6A6E0 /* Pods-Jotter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A42744BAC2B0E1E64BD5EA36C2C84DCF /* CameraShot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4440D9FAABFD4720410E42420C74C0 /* CameraShot.swift */; };
+		AC38B3D9D1191B996CD41395AE5D2F10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		AE89218AC195DE05395187D5675DE144 /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B54AD71FAE3583C45B2560094BD6A6 /* ConfirmViewController.swift */; };
+		AEE895C14AF01A398DB44F74EA3AC922 /* CameraGlobals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFF2BFB5064E3D0718502ECED28AC2E /* CameraGlobals.swift */; };
+		B9930488480573E134FAC014CCFA2530 /* ALCameraViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A05E9081DB96274C3BAF4622C46C67BD /* ALCameraViewController-dummy.m */; };
+		BB0BDC6AC67D0C009D4E9272909A292F /* SingleImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750F4ACC5C6E04B3CA0BEBB2DEB7855E /* SingleImageFetcher.swift */; };
+		CBFEBECAFFA3509700CDEE292C7438B3 /* ImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16E51EF50AACD2ED8DE1F8397ADD85D /* ImageFetcher.swift */; };
+		CD26688F9DBD9F8865E1D18A6DFD008B /* ConfirmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 236D1490275F46C7CDD1E13818244CBB /* ConfirmViewController.xib */; };
+		D56EB6F14826031ECC9D95F0B46376F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A78D78BA6DBA8B1C427601978C7B9A73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 120BF898FCCAF08F6DA8EE8AD2E85078;
+			remoteInfo = ALCameraViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06A167D4B53955F5D22D30AB2A74A503 /* Pods-Jotter-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Jotter-acknowledgements.markdown"; sourceTree = "<group>"; };
+		06BFB78324F09D3A3F0208B930D96152 /* ALCameraViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ALCameraViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A3B85E1465ACFDAD3C33D5A5AB0E347 /* Pods_Jotter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jotter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DF97B4D535FB26894F0739DE3519AE2 /* Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = ALCameraViewController/Utilities/Utilities.swift; sourceTree = "<group>"; };
+		19835C1F825E4C2975A40AE23876845D /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		1A17288D1B6D97FA178653F2B3230F9E /* Pods-Jotter-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Jotter-frameworks.sh"; sourceTree = "<group>"; };
+		1A4440D9FAABFD4720410E42420C74C0 /* CameraShot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraShot.swift; path = ALCameraViewController/Utilities/CameraShot.swift; sourceTree = "<group>"; };
+		1F2DCF766030688300FEA4EDE3BD7823 /* Pods-Jotter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Jotter.release.xcconfig"; sourceTree = "<group>"; };
+		236D1490275F46C7CDD1E13818244CBB /* ConfirmViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ConfirmViewController.xib; path = ALCameraViewController/ViewController/ConfirmViewController.xib; sourceTree = "<group>"; };
+		2A4358C7F166DD485B46B63BAF2F8899 /* VolumeControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VolumeControl.swift; path = ALCameraViewController/Utilities/VolumeControl.swift; sourceTree = "<group>"; };
+		2A491C3A4EEB939F7F5571FB8E9810C7 /* Analytics-Module.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Analytics-Module.h"; path = "Headers/ModuleHeaders/Analytics-Module.h"; sourceTree = "<group>"; };
+		2D3C741E0A2DBB75683333D66AE6A6E0 /* Pods-Jotter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Jotter-umbrella.h"; sourceTree = "<group>"; };
+		2FFD8E1948DE53E1FAE5C8D9292D9872 /* Core.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Core.h; path = Headers/Core.h; sourceTree = "<group>"; };
+		32619F8B657ACC1CCE65AC89F1623F21 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleSignIn.bundle; path = Resources/GoogleSignIn.bundle; sourceTree = "<group>"; };
+		326A6CB181906173A01C6FAE2BF3DCD4 /* Pods-JotterTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JotterTests-dummy.m"; sourceTree = "<group>"; };
+		32B54AD71FAE3583C45B2560094BD6A6 /* ConfirmViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfirmViewController.swift; path = ALCameraViewController/ViewController/ConfirmViewController.swift; sourceTree = "<group>"; };
+		3A065FE4A7E763834739F1C42B937F46 /* Pods-JotterUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JotterUITests-umbrella.h"; sourceTree = "<group>"; };
+		3BE2F18C691E12DFCAAC9118781835E3 /* Pods-JotterUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JotterUITests-resources.sh"; sourceTree = "<group>"; };
+		3D492389F353B8745590693BD99AE36B /* ALCameraViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ALCameraViewController.modulemap; sourceTree = "<group>"; };
+		41165B4861521EED02D8DAF122279143 /* Core-Module.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Core-Module.h"; path = "Headers/ModuleHeaders/Core-Module.h"; sourceTree = "<group>"; };
+		42A130EC4C9858ACE26757262EF9695C /* CameraViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = ALCameraViewController/ViewController/CameraViewController.swift; sourceTree = "<group>"; };
+		47064B5BA467E80FE2164E44FE4EF4B1 /* Pods-Jotter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Jotter-dummy.m"; sourceTree = "<group>"; };
+		4CFF2BFB5064E3D0718502ECED28AC2E /* CameraGlobals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraGlobals.swift; path = ALCameraViewController/Utilities/CameraGlobals.swift; sourceTree = "<group>"; };
+		4DC3460AB9A5B1D0336D0966E1B0CBDB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55476A048E14E3E0A06ED8E90654DCB4 /* ALCameraViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALCameraViewController-umbrella.h"; sourceTree = "<group>"; };
+		557461892710C7BF96834866B36E6E34 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		5611F1E4C69A19D6BD50B52C49DC7B60 /* PhotoLibraryAuthorizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhotoLibraryAuthorizer.swift; path = ALCameraViewController/Utilities/PhotoLibraryAuthorizer.swift; sourceTree = "<group>"; };
+		56A0F136CAF94178E547875D1389B74A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AF23CB41F5CD27A018B906465E728D8 /* Pods-Jotter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Jotter.debug.xcconfig"; sourceTree = "<group>"; };
+		5BFDDB2003711FD2CEEAC750F4AF1598 /* Pods-Jotter-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Jotter-acknowledgements.plist"; sourceTree = "<group>"; };
+		5D2B0A7CDA147119C6C028C598D9A721 /* SignIn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SignIn.h; path = Headers/SignIn.h; sourceTree = "<group>"; };
+		6064DC579E7347C2370E0F7AA7254E90 /* Pods_JotterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JotterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60FB5949A236DDCE33C801B838EEB6FF /* GGLSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GGLSignIn.framework; path = Frameworks/GGLSignIn.framework; sourceTree = "<group>"; };
+		623FC737239197747BB488BCCB1A6E56 /* Pods-JotterTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JotterTests-frameworks.sh"; sourceTree = "<group>"; };
+		68A9128CE108370475DFCEEA7ADB9429 /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
+		6A2C3BA127ABBE43922FC4117D59AB21 /* Pods-JotterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JotterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		748FE7613A9A9A879B3C1B2666599F60 /* Pods-JotterTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JotterTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		750F4ACC5C6E04B3CA0BEBB2DEB7855E /* SingleImageFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SingleImageFetcher.swift; path = ALCameraViewController/Utilities/SingleImageFetcher.swift; sourceTree = "<group>"; };
+		752201FDA9E41E8E70D3A4F3AE0AA447 /* ALCameraViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ALCameraViewController.xcconfig; sourceTree = "<group>"; };
+		766D980C51F3DE048C824F5E06963510 /* Pods-Jotter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Jotter.modulemap"; sourceTree = "<group>"; };
+		768DE485BE8F80113A21199FA0F6FC08 /* Pods-JotterTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JotterTests.modulemap"; sourceTree = "<group>"; };
+		7B36DE6D9F2C16C919DB9F046BB43FD6 /* CameraView.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = CameraView.strings; path = ALCameraViewController/CameraView.strings; sourceTree = "<group>"; };
+		847CF5540CFED9F1112113BF46656BDC /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Analytics/Sources/Firebase.h; sourceTree = "<group>"; };
+		8B28E5850A7FE4CA48EE3DAA76D5E57D /* CameraView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraView.swift; path = ALCameraViewController/Views/CameraView.swift; sourceTree = "<group>"; };
+		9268F9E8BA205E7EA185CBA82569FC87 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		9366B4D56B064CA34B9F9101BA4355EF /* GGLCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GGLCore.framework; path = Frameworks/GGLCore.framework; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		944BF205D6E5C439CA4C8EAE71F7167C /* Pods-JotterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JotterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		95654DCB5DAA8EB48B5D5F0905D2ED93 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		972265F2EE39CB9BCAD55CCF04F330A2 /* Pods-JotterUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JotterUITests-frameworks.sh"; sourceTree = "<group>"; };
+		9FFD8FEA13F613493F73AA116FB8C452 /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseStorage.framework; path = Frameworks/frameworks/FirebaseStorage.framework; sourceTree = "<group>"; };
+		A05E9081DB96274C3BAF4622C46C67BD /* ALCameraViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ALCameraViewController-dummy.m"; sourceTree = "<group>"; };
+		A0B65E0719DCE462666FC784560C2579 /* CropOverlay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropOverlay.swift; path = ALCameraViewController/Views/CropOverlay.swift; sourceTree = "<group>"; };
+		A1C85E9A3FCB12CFD54E99AD02AB72E9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2A10C6C0BD88B551BCF568554E5796A /* ALCameraViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALCameraViewController-prefix.pch"; sourceTree = "<group>"; };
+		A33BBB3762FA64119F8D078ABD905825 /* UIButtonExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIButtonExtensions.swift; path = ALCameraViewController/Utilities/UIButtonExtensions.swift; sourceTree = "<group>"; };
+		A52E649B28AFE7A61842783D2F51DE4E /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		A618CB3FB6580798E6C728E541C5E30E /* Pods-JotterUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JotterUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A81572C1BA40B98D0B787F321BDC680F /* Pods-JotterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JotterTests.release.xcconfig"; sourceTree = "<group>"; };
+		AC19E5B622BAE6CDEE2B720B5008704D /* Pods-JotterUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JotterUITests-dummy.m"; sourceTree = "<group>"; };
+		AC84E23E248DF19830E95C3F05FF3E47 /* Pods-JotterTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JotterTests-resources.sh"; sourceTree = "<group>"; };
+		BBF9B04A302A17D2EBFB5BBB0A08EE70 /* GoogleAppUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleAppUtilities.framework; path = Frameworks/GoogleAppUtilities.framework; sourceTree = "<group>"; };
+		BCF4EEF5207D171CD18CCF37AC74287D /* Pods-Jotter-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Jotter-resources.sh"; sourceTree = "<group>"; };
+		C4BE0D252F8F883C8E4E7BF743F7BD22 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		C4CD117B1AE69EA368137120CD6E4194 /* SignIn-Module.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SignIn-Module.h"; path = "Headers/ModuleHeaders/SignIn-Module.h"; sourceTree = "<group>"; };
+		C5B5A162ABD0E412873B54DE11C69E87 /* PhotoLibraryViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhotoLibraryViewController.swift; path = ALCameraViewController/ViewController/PhotoLibraryViewController.swift; sourceTree = "<group>"; };
+		CDE7379768CC13BF1653385D95C3F73D /* Pods-JotterTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JotterTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DB9414F066579151F33BDAA9D0348417 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		DD68047F665B5D9DC50E0AB311DBF34E /* PermissionsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PermissionsView.swift; path = ALCameraViewController/Views/PermissionsView.swift; sourceTree = "<group>"; };
+		E0236A137D72842C78C13FC9B51EC07A /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		E504E6502A5B852DA79772584A81E24B /* Pods-JotterUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JotterUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E562C53AABEE62DAB9DC6E1E3E909F78 /* Pods-JotterTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JotterTests-umbrella.h"; sourceTree = "<group>"; };
+		E5E0835BBDAF3713A7FE69AA35CE8E56 /* GoogleAuthUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleAuthUtilities.framework; path = Frameworks/GoogleAuthUtilities.framework; sourceTree = "<group>"; };
+		E881DCAB5C2EEED06353B59EE181C6EA /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignIn.framework; path = Frameworks/GoogleSignIn.framework; sourceTree = "<group>"; };
+		E8D9499CEFDC6110B0AFE2C6D06ADF04 /* Pods_JotterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JotterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9655386FC5FA0E65D97F1FF55FE845A /* CameraViewAssets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = CameraViewAssets.xcassets; path = ALCameraViewController/CameraViewAssets.xcassets; sourceTree = "<group>"; };
+		ED5DAE9EC98F74D0509DCAD280BF7EF1 /* Pods-JotterUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JotterUITests.modulemap"; sourceTree = "<group>"; };
+		F16E51EF50AACD2ED8DE1F8397ADD85D /* ImageFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageFetcher.swift; path = ALCameraViewController/Utilities/ImageFetcher.swift; sourceTree = "<group>"; };
+		F253BFF11879B341F12AE85E0B82588E /* ImageCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCell.swift; path = ALCameraViewController/Views/ImageCell.swift; sourceTree = "<group>"; };
+		F7CEE4F7F9C042A272275D9B2EF14585 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9E3C012BB04F63821D3652573A4A3F9 /* Pods-JotterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JotterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB85912FE80D631CF00A23E56108C6E7 /* SingleImageSaver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SingleImageSaver.swift; path = ALCameraViewController/Utilities/SingleImageSaver.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47C020AF79F5BAAD88C720E9330D4C76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92E3CC7C7A06C0F81A0AB6CBD55452BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B5FD6CDD3DD179141B920B5E46FDE9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D56EB6F14826031ECC9D95F0B46376F9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B9685FF35DF5C9C1F6C958A15D9473E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F3E5D23F9D7B0FE216D5A07DE720C45 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C52C5AD4E011A00D56C33FCB120E7D3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC38B3D9D1191B996CD41395AE5D2F10 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00FD9FC5C34A8492AFE2763E75D7BBCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				557461892710C7BF96834866B36E6E34 /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		013633FEF3ED5E031202E537F3301B64 /* GoogleNetworkingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				42CFBABE9E02CE78615BC421AEBDB79B /* Frameworks */,
+			);
+			path = GoogleNetworkingUtilities;
+			sourceTree = "<group>";
+		};
+		02A3174C709D76C261698B2B5DB7D8DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5E0835BBDAF3713A7FE69AA35CE8E56 /* GoogleAuthUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04521F580F571126D3376C67744B2827 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4BE0D252F8F883C8E4E7BF743F7BD22 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		05B8A2A24516C8D9D00D7E441B0604C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0236A137D72842C78C13FC9B51EC07A /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		078D91F19B4A68346B7D71AA2F03AE6D /* Pods-JotterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4DC3460AB9A5B1D0336D0966E1B0CBDB /* Info.plist */,
+				ED5DAE9EC98F74D0509DCAD280BF7EF1 /* Pods-JotterUITests.modulemap */,
+				E504E6502A5B852DA79772584A81E24B /* Pods-JotterUITests-acknowledgements.markdown */,
+				A618CB3FB6580798E6C728E541C5E30E /* Pods-JotterUITests-acknowledgements.plist */,
+				AC19E5B622BAE6CDEE2B720B5008704D /* Pods-JotterUITests-dummy.m */,
+				972265F2EE39CB9BCAD55CCF04F330A2 /* Pods-JotterUITests-frameworks.sh */,
+				3BE2F18C691E12DFCAAC9118781835E3 /* Pods-JotterUITests-resources.sh */,
+				3A065FE4A7E763834739F1C42B937F46 /* Pods-JotterUITests-umbrella.h */,
+				F9E3C012BB04F63821D3652573A4A3F9 /* Pods-JotterUITests.debug.xcconfig */,
+				944BF205D6E5C439CA4C8EAE71F7167C /* Pods-JotterUITests.release.xcconfig */,
+			);
+			name = "Pods-JotterUITests";
+			path = "Target Support Files/Pods-JotterUITests";
+			sourceTree = "<group>";
+		};
+		0F7A2146DD1FA91136EB58BA02F0A956 /* Google */ = {
+			isa = PBXGroup;
+			children = (
+				D2804EFAB2D310C100378DC5A63338C6 /* Core */,
+				74FA7E1888F1D76EF1158FE1A29F8F6A /* SignIn */,
+			);
+			path = Google;
+			sourceTree = "<group>";
+		};
+		1CE477E1E8E007695092F4CA2355ABAD /* FirebaseAuth */ = {
+			isa = PBXGroup;
+			children = (
+				6458B0AAEE5421BEFDD351EEDFA3DA04 /* Frameworks */,
+			);
+			path = FirebaseAuth;
+			sourceTree = "<group>";
+		};
+		21C955DF0188B6754DE84C0D511EA752 /* GoogleSignIn */ = {
+			isa = PBXGroup;
+			children = (
+				EA1430AB8C27CDD3F75963B30DC71E90 /* Frameworks */,
+				A5C17B15266407B839C254BA0209D976 /* Resources */,
+			);
+			path = GoogleSignIn;
+			sourceTree = "<group>";
+		};
+		3A5C5754CA6753846752A7C422D512EC /* Pods-JotterTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1C85E9A3FCB12CFD54E99AD02AB72E9 /* Info.plist */,
+				768DE485BE8F80113A21199FA0F6FC08 /* Pods-JotterTests.modulemap */,
+				748FE7613A9A9A879B3C1B2666599F60 /* Pods-JotterTests-acknowledgements.markdown */,
+				CDE7379768CC13BF1653385D95C3F73D /* Pods-JotterTests-acknowledgements.plist */,
+				326A6CB181906173A01C6FAE2BF3DCD4 /* Pods-JotterTests-dummy.m */,
+				623FC737239197747BB488BCCB1A6E56 /* Pods-JotterTests-frameworks.sh */,
+				AC84E23E248DF19830E95C3F05FF3E47 /* Pods-JotterTests-resources.sh */,
+				E562C53AABEE62DAB9DC6E1E3E909F78 /* Pods-JotterTests-umbrella.h */,
+				6A2C3BA127ABBE43922FC4117D59AB21 /* Pods-JotterTests.debug.xcconfig */,
+				A81572C1BA40B98D0B787F321BDC680F /* Pods-JotterTests.release.xcconfig */,
+			);
+			name = "Pods-JotterTests";
+			path = "Target Support Files/Pods-JotterTests";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		417370A45ADF8F921286822CD42D1B03 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF101600C499A4E155FC1E6322F50B7F /* Pods-Jotter */,
+				3A5C5754CA6753846752A7C422D512EC /* Pods-JotterTests */,
+				078D91F19B4A68346B7D71AA2F03AE6D /* Pods-JotterUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		42968DD604EBFB6AE602F96E8101B4D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60FB5949A236DDCE33C801B838EEB6FF /* GGLSignIn.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42CFBABE9E02CE78615BC421AEBDB79B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A52E649B28AFE7A61842783D2F51DE4E /* GoogleNetworkingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		573722AFBFE63F9422D18A63E398E28F /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				04521F580F571126D3376C67744B2827 /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		6458B0AAEE5421BEFDD351EEDFA3DA04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68A9128CE108370475DFCEEA7ADB9429 /* FirebaseAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		693111F8B7E9FCDB81EE6A5D779F5494 /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				00FD9FC5C34A8492AFE2763E75D7BBCC /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		6D46D16850AB861946D2A9706BC044C5 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				8445C630B0F844E2E7B54D5C63757CC7 /* Analytics */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		74FA7E1888F1D76EF1158FE1A29F8F6A /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				5D2B0A7CDA147119C6C028C598D9A721 /* SignIn.h */,
+				42968DD604EBFB6AE602F96E8101B4D3 /* Frameworks */,
+			);
+			name = SignIn;
+			sourceTree = "<group>";
+		};
+		7B5C27F49FE18A2BB9BC4B004E173262 /* ALCameraViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4CFF2BFB5064E3D0718502ECED28AC2E /* CameraGlobals.swift */,
+				1A4440D9FAABFD4720410E42420C74C0 /* CameraShot.swift */,
+				8B28E5850A7FE4CA48EE3DAA76D5E57D /* CameraView.swift */,
+				42A130EC4C9858ACE26757262EF9695C /* CameraViewController.swift */,
+				32B54AD71FAE3583C45B2560094BD6A6 /* ConfirmViewController.swift */,
+				A0B65E0719DCE462666FC784560C2579 /* CropOverlay.swift */,
+				F253BFF11879B341F12AE85E0B82588E /* ImageCell.swift */,
+				F16E51EF50AACD2ED8DE1F8397ADD85D /* ImageFetcher.swift */,
+				DD68047F665B5D9DC50E0AB311DBF34E /* PermissionsView.swift */,
+				5611F1E4C69A19D6BD50B52C49DC7B60 /* PhotoLibraryAuthorizer.swift */,
+				C5B5A162ABD0E412873B54DE11C69E87 /* PhotoLibraryViewController.swift */,
+				750F4ACC5C6E04B3CA0BEBB2DEB7855E /* SingleImageFetcher.swift */,
+				FB85912FE80D631CF00A23E56108C6E7 /* SingleImageSaver.swift */,
+				A33BBB3762FA64119F8D078ABD905825 /* UIButtonExtensions.swift */,
+				0DF97B4D535FB26894F0739DE3519AE2 /* Utilities.swift */,
+				2A4358C7F166DD485B46B63BAF2F8899 /* VolumeControl.swift */,
+				F2D08AD9A271E0BADD844E9655DDF5CC /* Resources */,
+				B3069FB4AFC9F83EB09E404333DB2A1B /* Support Files */,
+			);
+			path = ALCameraViewController;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E1EC71665965C113D3E5CF1681975015 /* Pods */,
+				C06B6CA38915B2115CFC965AF3A75000 /* Products */,
+				417370A45ADF8F921286822CD42D1B03 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8445C630B0F844E2E7B54D5C63757CC7 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				847CF5540CFED9F1112113BF46656BDC /* Firebase.h */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		8C9BC9AD5B5E2DD40548AE64D2E946BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB9414F066579151F33BDAA9D0348417 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E2BAF286326E9A9B0ED0D541763BCD1 /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				8C9BC9AD5B5E2DD40548AE64D2E946BA /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		9A0A2F7E21521F6B134A53ECFED9207E /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				E6F73C4E86E5A862132D6ADDDC573639 /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		9E1E6AEECC5494936260C921A9B0EAFA /* FirebaseStorage */ = {
+			isa = PBXGroup;
+			children = (
+				A3243B64B7AF1DEFDB555F973AE49BB9 /* Frameworks */,
+			);
+			path = FirebaseStorage;
+			sourceTree = "<group>";
+		};
+		A0325AAE7E61991B19174518081F9015 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				19835C1F825E4C2975A40AE23876845D /* FIRInstanceID.h */,
+				F83286E7BEFD7C651B0F48059CB2A71E /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		A3243B64B7AF1DEFDB555F973AE49BB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FFD8FEA13F613493F73AA116FB8C452 /* FirebaseStorage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5C17B15266407B839C254BA0209D976 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				32619F8B657ACC1CCE65AC89F1623F21 /* GoogleSignIn.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AC04F84B6581A4CC6A2402AE0EE63B33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9366B4D56B064CA34B9F9101BA4355EF /* GGLCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF101600C499A4E155FC1E6322F50B7F /* Pods-Jotter */ = {
+			isa = PBXGroup;
+			children = (
+				56A0F136CAF94178E547875D1389B74A /* Info.plist */,
+				766D980C51F3DE048C824F5E06963510 /* Pods-Jotter.modulemap */,
+				06A167D4B53955F5D22D30AB2A74A503 /* Pods-Jotter-acknowledgements.markdown */,
+				5BFDDB2003711FD2CEEAC750F4AF1598 /* Pods-Jotter-acknowledgements.plist */,
+				47064B5BA467E80FE2164E44FE4EF4B1 /* Pods-Jotter-dummy.m */,
+				1A17288D1B6D97FA178653F2B3230F9E /* Pods-Jotter-frameworks.sh */,
+				BCF4EEF5207D171CD18CCF37AC74287D /* Pods-Jotter-resources.sh */,
+				2D3C741E0A2DBB75683333D66AE6A6E0 /* Pods-Jotter-umbrella.h */,
+				5AF23CB41F5CD27A018B906465E728D8 /* Pods-Jotter.debug.xcconfig */,
+				1F2DCF766030688300FEA4EDE3BD7823 /* Pods-Jotter.release.xcconfig */,
+			);
+			name = "Pods-Jotter";
+			path = "Target Support Files/Pods-Jotter";
+			sourceTree = "<group>";
+		};
+		B3069FB4AFC9F83EB09E404333DB2A1B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D492389F353B8745590693BD99AE36B /* ALCameraViewController.modulemap */,
+				752201FDA9E41E8E70D3A4F3AE0AA447 /* ALCameraViewController.xcconfig */,
+				A05E9081DB96274C3BAF4622C46C67BD /* ALCameraViewController-dummy.m */,
+				A2A10C6C0BD88B551BCF568554E5796A /* ALCameraViewController-prefix.pch */,
+				55476A048E14E3E0A06ED8E90654DCB4 /* ALCameraViewController-umbrella.h */,
+				F7CEE4F7F9C042A272275D9B2EF14585 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ALCameraViewController";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C06B6CA38915B2115CFC965AF3A75000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06BFB78324F09D3A3F0208B930D96152 /* ALCameraViewController.framework */,
+				0A3B85E1465ACFDAD3C33D5A5AB0E347 /* Pods_Jotter.framework */,
+				E8D9499CEFDC6110B0AFE2C6D06ADF04 /* Pods_JotterTests.framework */,
+				6064DC579E7347C2370E0F7AA7254E90 /* Pods_JotterUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C747E0ECF22466970F92E628B635F65E /* GoogleAuthUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				02A3174C709D76C261698B2B5DB7D8DA /* Frameworks */,
+			);
+			path = GoogleAuthUtilities;
+			sourceTree = "<group>";
+		};
+		D2804EFAB2D310C100378DC5A63338C6 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2A491C3A4EEB939F7F5571FB8E9810C7 /* Analytics-Module.h */,
+				2FFD8E1948DE53E1FAE5C8D9292D9872 /* Core.h */,
+				41165B4861521EED02D8DAF122279143 /* Core-Module.h */,
+				C4CD117B1AE69EA368137120CD6E4194 /* SignIn-Module.h */,
+				AC04F84B6581A4CC6A2402AE0EE63B33 /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		E1EC71665965C113D3E5CF1681975015 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B5C27F49FE18A2BB9BC4B004E173262 /* ALCameraViewController */,
+				6D46D16850AB861946D2A9706BC044C5 /* Firebase */,
+				9A0A2F7E21521F6B134A53ECFED9207E /* FirebaseAnalytics */,
+				1CE477E1E8E007695092F4CA2355ABAD /* FirebaseAuth */,
+				EC7B2A44E4AF46207EFCDEF9B09C414B /* FirebaseDatabase */,
+				A0325AAE7E61991B19174518081F9015 /* FirebaseInstanceID */,
+				9E1E6AEECC5494936260C921A9B0EAFA /* FirebaseStorage */,
+				0F7A2146DD1FA91136EB58BA02F0A956 /* Google */,
+				E84621DAA7BB5016AC75A11A4CCC0F0F /* GoogleAppUtilities */,
+				C747E0ECF22466970F92E628B635F65E /* GoogleAuthUtilities */,
+				8E2BAF286326E9A9B0ED0D541763BCD1 /* GoogleInterchangeUtilities */,
+				013633FEF3ED5E031202E537F3301B64 /* GoogleNetworkingUtilities */,
+				21C955DF0188B6754DE84C0D511EA752 /* GoogleSignIn */,
+				573722AFBFE63F9422D18A63E398E28F /* GoogleSymbolUtilities */,
+				693111F8B7E9FCDB81EE6A5D779F5494 /* GoogleUtilities */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E6F73C4E86E5A862132D6ADDDC573639 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9268F9E8BA205E7EA185CBA82569FC87 /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E84621DAA7BB5016AC75A11A4CCC0F0F /* GoogleAppUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				EA6936DCC13F2ACA076B8C27927DA65E /* Frameworks */,
+			);
+			path = GoogleAppUtilities;
+			sourceTree = "<group>";
+		};
+		EA1430AB8C27CDD3F75963B30DC71E90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E881DCAB5C2EEED06353B59EE181C6EA /* GoogleSignIn.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA6936DCC13F2ACA076B8C27927DA65E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBF9B04A302A17D2EBFB5BBB0A08EE70 /* GoogleAppUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC7B2A44E4AF46207EFCDEF9B09C414B /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				05B8A2A24516C8D9D00D7E441B0604C8 /* Frameworks */,
+			);
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		F2D08AD9A271E0BADD844E9655DDF5CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7B36DE6D9F2C16C919DB9F046BB43FD6 /* CameraView.strings */,
+				E9655386FC5FA0E65D97F1FF55FE845A /* CameraViewAssets.xcassets */,
+				236D1490275F46C7CDD1E13818244CBB /* ConfirmViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F83286E7BEFD7C651B0F48059CB2A71E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95654DCB5DAA8EB48B5D5F0905D2ED93 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		00ED9B67891A82ECF1A2F54F84152A26 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EA831A5C3CCC95ADA6CD59182FD039F /* Pods-Jotter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		454F199EBE91C6F86DE4522DBF0ACAC5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				252736BA92E653FD2433CB88DE934250 /* Pods-JotterUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD90F8E419F4A0E221E738969FB250E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				021C49B68ABA1D2B856CE205FCF14306 /* Pods-JotterTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E81D14B2B7ABA0FAE62A33B433D1A571 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C801142CF1DDCC7E27FE6BDDB0330E /* ALCameraViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		120BF898FCCAF08F6DA8EE8AD2E85078 /* ALCameraViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2384A4AF599521FABFAFEFF89D44A80 /* Build configuration list for PBXNativeTarget "ALCameraViewController" */;
+			buildPhases = (
+				CF3959F5FD6B0474439FA64504E67D5B /* Sources */,
+				47C020AF79F5BAAD88C720E9330D4C76 /* Frameworks */,
+				E9E2F3549EE9C27E31FC534172249625 /* Resources */,
+				E81D14B2B7ABA0FAE62A33B433D1A571 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ALCameraViewController;
+			productName = ALCameraViewController;
+			productReference = 06BFB78324F09D3A3F0208B930D96152 /* ALCameraViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5033E46C62B673BC40779E03E19231D1 /* Pods-JotterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C60A9F26340CDF36D5845866F00873F /* Build configuration list for PBXNativeTarget "Pods-JotterTests" */;
+			buildPhases = (
+				54AE69ABA9D9D97479BAFB3AD0A70321 /* Sources */,
+				C52C5AD4E011A00D56C33FCB120E7D3E /* Frameworks */,
+				CDD90F8E419F4A0E221E738969FB250E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JotterTests";
+			productName = "Pods-JotterTests";
+			productReference = E8D9499CEFDC6110B0AFE2C6D06ADF04 /* Pods_JotterTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		73FA207B14CFBCE02E6C2ACC0B492758 /* Pods-JotterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6016CF5955B075E7BAABA225CF177147 /* Build configuration list for PBXNativeTarget "Pods-JotterUITests" */;
+			buildPhases = (
+				23D6E587ECC020491C341861C47BEAE1 /* Sources */,
+				6B9685FF35DF5C9C1F6C958A15D9473E /* Frameworks */,
+				454F199EBE91C6F86DE4522DBF0ACAC5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JotterUITests";
+			productName = "Pods-JotterUITests";
+			productReference = 6064DC579E7347C2370E0F7AA7254E90 /* Pods_JotterUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D47BB5132578D81575F5845B6C31A91C /* Pods-Jotter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C46A179B2BCB31C73ACA50C5BC63107 /* Build configuration list for PBXNativeTarget "Pods-Jotter" */;
+			buildPhases = (
+				DF732267AA93F3C09B94DB55ADB7517F /* Sources */,
+				5B5FD6CDD3DD179141B920B5E46FDE9E /* Frameworks */,
+				00ED9B67891A82ECF1A2F54F84152A26 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3286F18C7381D34C55071493592E52C /* PBXTargetDependency */,
+			);
+			name = "Pods-Jotter";
+			productName = "Pods-Jotter";
+			productReference = 0A3B85E1465ACFDAD3C33D5A5AB0E347 /* Pods_Jotter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C06B6CA38915B2115CFC965AF3A75000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				120BF898FCCAF08F6DA8EE8AD2E85078 /* ALCameraViewController */,
+				D47BB5132578D81575F5845B6C31A91C /* Pods-Jotter */,
+				5033E46C62B673BC40779E03E19231D1 /* Pods-JotterTests */,
+				73FA207B14CFBCE02E6C2ACC0B492758 /* Pods-JotterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9E2F3549EE9C27E31FC534172249625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4730C39DA90FA87EC7FE5A6816675957 /* CameraView.strings in Resources */,
+				78AB6DDAACAD9FB138A3FACEB81EDEF1 /* CameraViewAssets.xcassets in Resources */,
+				CD26688F9DBD9F8865E1D18A6DFD008B /* ConfirmViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23D6E587ECC020491C341861C47BEAE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				541E21CC80FE4C888DF433CAE89D0AC6 /* Pods-JotterUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54AE69ABA9D9D97479BAFB3AD0A70321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D767EEA9E55E31E9CB3DBD3446CAAB9 /* Pods-JotterTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3959F5FD6B0474439FA64504E67D5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9930488480573E134FAC014CCFA2530 /* ALCameraViewController-dummy.m in Sources */,
+				AEE895C14AF01A398DB44F74EA3AC922 /* CameraGlobals.swift in Sources */,
+				A42744BAC2B0E1E64BD5EA36C2C84DCF /* CameraShot.swift in Sources */,
+				45A5DFC680091E598650261FD73F2AD9 /* CameraView.swift in Sources */,
+				4CA00025C68A464A2C14024DE2586A5D /* CameraViewController.swift in Sources */,
+				AE89218AC195DE05395187D5675DE144 /* ConfirmViewController.swift in Sources */,
+				9A7E70B45F14FF42ABA3F92F4AE05980 /* CropOverlay.swift in Sources */,
+				8BA5172B9526726D272ED08AAC9440CE /* ImageCell.swift in Sources */,
+				CBFEBECAFFA3509700CDEE292C7438B3 /* ImageFetcher.swift in Sources */,
+				07891D056A74F00843EBB37C7B0AA82E /* PermissionsView.swift in Sources */,
+				44C9D7265DC9AAE0DCF627272255E587 /* PhotoLibraryAuthorizer.swift in Sources */,
+				5D9FEB0C061F876ADF29DF977BCF7676 /* PhotoLibraryViewController.swift in Sources */,
+				BB0BDC6AC67D0C009D4E9272909A292F /* SingleImageFetcher.swift in Sources */,
+				4278EAF612324002CA1BF7674E92FF40 /* SingleImageSaver.swift in Sources */,
+				9272F88C49CF9B1DB99860E69038B9E0 /* UIButtonExtensions.swift in Sources */,
+				923166B09C7E9BEB27FD1D6EB16D0332 /* Utilities.swift in Sources */,
+				752BD03D839F010C99D38E5999FDF818 /* VolumeControl.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF732267AA93F3C09B94DB55ADB7517F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9837F1436AAAB731A324C6E286497D4A /* Pods-Jotter-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3286F18C7381D34C55071493592E52C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ALCameraViewController;
+			target = 120BF898FCCAF08F6DA8EE8AD2E85078 /* ALCameraViewController */;
+			targetProxy = A78D78BA6DBA8B1C427601978C7B9A73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		15C00F70BA78E2A3D80F196B86F0E163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 752201FDA9E41E8E70D3A4F3AE0AA447 /* ALCameraViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ALCameraViewController/ALCameraViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ALCameraViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ALCameraViewController/ALCameraViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ALCameraViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46F936A8B0EE201BAE73A164B6B7BF24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AF23CB41F5CD27A018B906465E728D8 /* Pods-Jotter.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Jotter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Jotter/Pods-Jotter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Jotter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		46FB1654FF6CB0D423C253224E698229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 944BF205D6E5C439CA4C8EAE71F7167C /* Pods-JotterUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JotterUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JotterUITests/Pods-JotterUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JotterUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7F7E47C5A5C7C9B87F58BDA4F1E1A7B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 752201FDA9E41E8E70D3A4F3AE0AA447 /* ALCameraViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ALCameraViewController/ALCameraViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ALCameraViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ALCameraViewController/ALCameraViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ALCameraViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		81CBF5B8292291D54949B1AD9AE3C5FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A81572C1BA40B98D0B787F321BDC680F /* Pods-JotterTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JotterTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JotterTests/Pods-JotterTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JotterTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8ADB0C8D8002B3A82982AECCD042188F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A2C3BA127ABBE43922FC4117D59AB21 /* Pods-JotterTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JotterTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JotterTests/Pods-JotterTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JotterTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A5A5AE3196B38F0A1F1195CC87153F58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9E3C012BB04F63821D3652573A4A3F9 /* Pods-JotterUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JotterUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JotterUITests/Pods-JotterUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JotterUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB681AB0ACEA7E845D1D3854F9286ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F2DCF766030688300FEA4EDE3BD7823 /* Pods-Jotter.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Jotter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Jotter/Pods-Jotter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Jotter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C46A179B2BCB31C73ACA50C5BC63107 /* Build configuration list for PBXNativeTarget "Pods-Jotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F936A8B0EE201BAE73A164B6B7BF24 /* Debug */,
+				AB681AB0ACEA7E845D1D3854F9286ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C60A9F26340CDF36D5845866F00873F /* Build configuration list for PBXNativeTarget "Pods-JotterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ADB0C8D8002B3A82982AECCD042188F /* Debug */,
+				81CBF5B8292291D54949B1AD9AE3C5FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6016CF5955B075E7BAABA225CF177147 /* Build configuration list for PBXNativeTarget "Pods-JotterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A5AE3196B38F0A1F1195CC87153F58 /* Debug */,
+				46FB1654FF6CB0D423C253224E698229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2384A4AF599521FABFAFEFF89D44A80 /* Build configuration list for PBXNativeTarget "ALCameraViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F7E47C5A5C7C9B87F58BDA4F1E1A7B1 /* Debug */,
+				15C00F70BA78E2A3D80F196B86F0E163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

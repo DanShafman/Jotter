@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01CB9DA00249A0514FDA0CC5 /* Pods_Jotter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD0903378E7528C76A83F177 /* Pods_Jotter.framework */; };
+		372722C51D9802890047BCC9 /* CaptureExistingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372722C41D9802890047BCC9 /* CaptureExistingViewController.swift */; };
+		3735A3371D97B6A900D1758D /* GoogleAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3735A3361D97B6A900D1758D /* GoogleAuthViewController.swift */; };
 		374988F61D974A9D00675F67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374988F51D974A9D00675F67 /* AppDelegate.swift */; };
-		374988F81D974A9D00675F67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374988F71D974A9D00675F67 /* ViewController.swift */; };
+		374988F81D974A9D00675F67 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374988F71D974A9D00675F67 /* EntryViewController.swift */; };
 		374988FB1D974A9D00675F67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 374988F91D974A9D00675F67 /* Main.storyboard */; };
 		374988FD1D974A9D00675F67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 374988FC1D974A9D00675F67 /* Assets.xcassets */; };
 		374989001D974A9D00675F67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 374988FE1D974A9D00675F67 /* LaunchScreen.storyboard */; };
 		3749890B1D974A9D00675F67 /* JotterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3749890A1D974A9D00675F67 /* JotterTests.swift */; };
 		374989161D974A9D00675F67 /* JotterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374989151D974A9D00675F67 /* JotterUITests.swift */; };
+		3752C9141D97C8410095E80B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3752C9131D97C8410095E80B /* GoogleService-Info.plist */; };
+		376988E61D97894800417295 /* JotTakenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376988E51D97894800417295 /* JotTakenViewController.swift */; };
+		68FAA0B3EF9EB88D6ECC3C5E /* Pods_JotterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7096A8E5E7E7551BF6591B39 /* Pods_JotterUITests.framework */; };
+		FEDB139A84FCC454D7E7344E /* Pods_JotterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF656089C3C56205C7093721 /* Pods_JotterTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B541DA8F4B35BD971C85D76 /* Pods-Jotter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jotter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jotter/Pods-Jotter.debug.xcconfig"; sourceTree = "<group>"; };
+		2D05B6F6CDAEE26A011829D5 /* Pods-JotterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JotterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JotterTests/Pods-JotterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		372722C41D9802890047BCC9 /* CaptureExistingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureExistingViewController.swift; sourceTree = "<group>"; };
+		3735A3361D97B6A900D1758D /* GoogleAuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleAuthViewController.swift; sourceTree = "<group>"; };
 		374988F21D974A9D00675F67 /* Jotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		374988F51D974A9D00675F67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		374988F71D974A9D00675F67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		374988F71D974A9D00675F67 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
 		374988FA1D974A9D00675F67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		374988FC1D974A9D00675F67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		374988FF1D974A9D00675F67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +58,16 @@
 		374989111D974A9D00675F67 /* JotterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JotterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		374989151D974A9D00675F67 /* JotterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JotterUITests.swift; sourceTree = "<group>"; };
 		374989171D974A9D00675F67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3752C9131D97C8410095E80B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		376988E51D97894800417295 /* JotTakenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JotTakenViewController.swift; sourceTree = "<group>"; };
+		37891D661D97BF7900AF9E01 /* Jotter-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jotter-Bridging-Header.h"; sourceTree = "<group>"; };
+		7096A8E5E7E7551BF6591B39 /* Pods_JotterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JotterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96C69176FC7D7A3F2315C35E /* Pods-JotterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JotterUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JotterUITests/Pods-JotterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA9E770AECBA576E24674308 /* Pods-JotterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JotterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JotterUITests/Pods-JotterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AD0903378E7528C76A83F177 /* Pods_Jotter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jotter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF656089C3C56205C7093721 /* Pods_JotterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JotterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C93DFFB53D5B3EF4E73C6EA2 /* Pods-Jotter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jotter.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jotter/Pods-Jotter.release.xcconfig"; sourceTree = "<group>"; };
+		FE1F475C05A6072EB485B963 /* Pods-JotterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JotterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JotterTests/Pods-JotterTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01CB9DA00249A0514FDA0CC5 /* Pods_Jotter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEDB139A84FCC454D7E7344E /* Pods_JotterTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +91,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68FAA0B3EF9EB88D6ECC3C5E /* Pods_JotterUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		294913425661AAF39DE87C1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD0903378E7528C76A83F177 /* Pods_Jotter.framework */,
+				BF656089C3C56205C7093721 /* Pods_JotterTests.framework */,
+				7096A8E5E7E7551BF6591B39 /* Pods_JotterUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		374988E91D974A9D00675F67 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +115,8 @@
 				374989091D974A9D00675F67 /* JotterTests */,
 				374989141D974A9D00675F67 /* JotterUITests */,
 				374988F31D974A9D00675F67 /* Products */,
+				9B727E1BBE8808A5D825F85B /* Pods */,
+				294913425661AAF39DE87C1A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +133,17 @@
 		374988F41D974A9D00675F67 /* Jotter */ = {
 			isa = PBXGroup;
 			children = (
+				3752C9131D97C8410095E80B /* GoogleService-Info.plist */,
 				374988F51D974A9D00675F67 /* AppDelegate.swift */,
-				374988F71D974A9D00675F67 /* ViewController.swift */,
+				374988F71D974A9D00675F67 /* EntryViewController.swift */,
 				374988F91D974A9D00675F67 /* Main.storyboard */,
 				374988FC1D974A9D00675F67 /* Assets.xcassets */,
 				374988FE1D974A9D00675F67 /* LaunchScreen.storyboard */,
 				374989011D974A9D00675F67 /* Info.plist */,
+				376988E51D97894800417295 /* JotTakenViewController.swift */,
+				3735A3361D97B6A900D1758D /* GoogleAuthViewController.swift */,
+				37891D661D97BF7900AF9E01 /* Jotter-Bridging-Header.h */,
+				372722C41D9802890047BCC9 /* CaptureExistingViewController.swift */,
 			);
 			path = Jotter;
 			sourceTree = "<group>";
@@ -125,6 +166,19 @@
 			path = JotterUITests;
 			sourceTree = "<group>";
 		};
+		9B727E1BBE8808A5D825F85B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B541DA8F4B35BD971C85D76 /* Pods-Jotter.debug.xcconfig */,
+				C93DFFB53D5B3EF4E73C6EA2 /* Pods-Jotter.release.xcconfig */,
+				2D05B6F6CDAEE26A011829D5 /* Pods-JotterTests.debug.xcconfig */,
+				FE1F475C05A6072EB485B963 /* Pods-JotterTests.release.xcconfig */,
+				96C69176FC7D7A3F2315C35E /* Pods-JotterUITests.debug.xcconfig */,
+				AA9E770AECBA576E24674308 /* Pods-JotterUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3749891A1D974A9D00675F67 /* Build configuration list for PBXNativeTarget "Jotter" */;
 			buildPhases = (
+				E696B051F37FF5254EE1AB2E /* [CP] Check Pods Manifest.lock */,
 				374988EE1D974A9D00675F67 /* Sources */,
 				374988EF1D974A9D00675F67 /* Frameworks */,
 				374988F01D974A9D00675F67 /* Resources */,
+				8C0C9858EF529B5E034CA768 /* [CP] Embed Pods Frameworks */,
+				07EC71DB64C3B180CB413908 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3749891D1D974A9D00675F67 /* Build configuration list for PBXNativeTarget "JotterTests" */;
 			buildPhases = (
+				60AE61BB52C5BD02B539BB37 /* [CP] Check Pods Manifest.lock */,
 				374989021D974A9D00675F67 /* Sources */,
 				374989031D974A9D00675F67 /* Frameworks */,
 				374989041D974A9D00675F67 /* Resources */,
+				B9D95AB6FC84040763CE1B57 /* [CP] Embed Pods Frameworks */,
+				EF5C427A44BC78D15303281C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +227,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 374989201D974A9D00675F67 /* Build configuration list for PBXNativeTarget "JotterUITests" */;
 			buildPhases = (
+				85BF204241C2ECD9A3261C54 /* [CP] Check Pods Manifest.lock */,
 				3749890D1D974A9D00675F67 /* Sources */,
 				3749890E1D974A9D00675F67 /* Frameworks */,
 				3749890F1D974A9D00675F67 /* Resources */,
+				5AD40FDDFF20EB8A4338FE92 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +255,7 @@
 				TargetAttributes = {
 					374988F11D974A9D00675F67 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = RF879MPE57;
 					};
 					374989051D974A9D00675F67 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -230,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				374989001D974A9D00675F67 /* LaunchScreen.storyboard in Resources */,
+				3752C9141D97C8410095E80B /* GoogleService-Info.plist in Resources */,
 				374988FD1D974A9D00675F67 /* Assets.xcassets in Resources */,
 				374988FB1D974A9D00675F67 /* Main.storyboard in Resources */,
 			);
@@ -251,13 +315,139 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07EC71DB64C3B180CB413908 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jotter/Pods-Jotter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AD40FDDFF20EB8A4338FE92 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JotterUITests/Pods-JotterUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60AE61BB52C5BD02B539BB37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		85BF204241C2ECD9A3261C54 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8C0C9858EF529B5E034CA768 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jotter/Pods-Jotter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9D95AB6FC84040763CE1B57 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JotterTests/Pods-JotterTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E696B051F37FF5254EE1AB2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EF5C427A44BC78D15303281C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JotterTests/Pods-JotterTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		374988EE1D974A9D00675F67 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				374988F81D974A9D00675F67 /* ViewController.swift in Sources */,
+				374988F81D974A9D00675F67 /* EntryViewController.swift in Sources */,
 				374988F61D974A9D00675F67 /* AppDelegate.swift in Sources */,
+				376988E61D97894800417295 /* JotTakenViewController.swift in Sources */,
+				372722C51D9802890047BCC9 /* CaptureExistingViewController.swift in Sources */,
+				3735A3371D97B6A900D1758D /* GoogleAuthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,28 +589,42 @@
 		};
 		3749891B1D974A9D00675F67 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B541DA8F4B35BD971C85D76 /* Pods-Jotter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Jotter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.Jotter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Jotter/Jotter-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		3749891C1D974A9D00675F67 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C93DFFB53D5B3EF4E73C6EA2 /* Pods-Jotter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Jotter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.Jotter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Jotter/Jotter-Bridging-Header.h";
 			};
 			name = Release;
 		};
 		3749891E1D974A9D00675F67 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D05B6F6CDAEE26A011829D5 /* Pods-JotterTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = JotterTests/Info.plist;
@@ -433,6 +637,7 @@
 		};
 		3749891F1D974A9D00675F67 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE1F475C05A6072EB485B963 /* Pods-JotterTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = JotterTests/Info.plist;
@@ -445,6 +650,7 @@
 		};
 		374989211D974A9D00675F67 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96C69176FC7D7A3F2315C35E /* Pods-JotterUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = JotterUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -456,6 +662,7 @@
 		};
 		374989221D974A9D00675F67 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA9E770AECBA576E24674308 /* Pods-JotterUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = JotterUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -484,6 +691,7 @@
 				3749891C1D974A9D00675F67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3749891D1D974A9D00675F67 /* Build configuration list for PBXNativeTarget "JotterTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +700,7 @@
 				3749891F1D974A9D00675F67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		374989201D974A9D00675F67 /* Build configuration list for PBXNativeTarget "JotterUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +709,7 @@
 				374989221D974A9D00675F67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
