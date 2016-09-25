@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "Jotter",
+  "description": "The companion extention for Jotter",
+  "version": "2.1",
+  "icons": {
+    "128": "icons/icon128.png"
+  },
+  "browser_action": {
+    "default_icon": "icons/icon48.png",
+    "default_popup": "credentials.html"
+  },
+  "background": {
+    "page": "background.html"
+  },
+  "permissions": [
+    "identity"
+  ],
+  // Adding https://www.gstatic.com/ to the external scripts authorized domains so we can import the firebase JS SDK and access the Realtime Database as well as Firebase Storage.
+  "content_security_policy":"script-src 'self' https://www.gstatic.com/ https://*.firebaseio.com https://www.googleapis.com; object-src 'self'",
+  "oauth2": {
+    // TODO(DEVELOPER): Change the line below to the OAuth Client ID you created as described in https://developer.chrome.com/apps/app_identity#google
+    "client_id": "956803222781-u2a220kjg5d2segruh4nbjv0ma8kudb9.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/userinfo.email",
+      "https://www.googleapis.com/auth/userinfo.profile"
+    ]
+  },
+  // TODO(DEVELOPER): Change the line below to your Chrome Extension's public key as described in https://developer.chrome.com/apps/app_identity#google
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAm/awwXzdBggtrqllAFIxEPMg0vJz9oZy/EfwEZDYmoMmrQhmdUSoQPl5uqzy1DI7CIikTbGa/KZVhWORuYJHP/szihZbUfs3EXSQht6ukAFMdGSZQtJKjZI4AcOfFMzKnEvwVFtQXjwEISvbkNx5Yagg1o/HwdqHANSHzIkUseWtaDBKaZy5UHfx4r7gRcG1Yi+F3NtiBB6p7kXT6XwHcqoKpUml2Iobq3/r2AmHIAhU4b/rjFrt7tBDHgX3ju5yDGAse1PBaVBCjNBSEHlWqx5oTEMPEeQhuVpZwoMIuMtnKfWrqrQgvQGPabDEHIXLSweV+g+SWY3z4t7xh545jQIDAQAB"
+}

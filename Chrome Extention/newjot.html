@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>
+        Register new Jot
+      </title>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="materialize/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+        <nav>
+          <div class="nav-wrapper primcolor">
+            <img src="icons/icon128.png"/>
+          </div>
+        </nav>
+        <div class="container">
+          <h2 class="seccolor-text center">jotter</h2>
+          <h4 class="center tricolor-text">Let's configure your new jot!</h4>
+          <h6 class="center jotid"></h6>
+          <div class="row">
+            <span class="col s4"></span><img src="http://placehold.it/150x150" class="col s4 img"><span class="col s4"></span>
+          </div>
+          <div class="input-field col s6">
+          <input placeholder="http://" val="http://" id="url" type="url" class="validate">
+          <label for="url">Site Adress:</label>
+          </div>
+          <div class="row">
+           <button class="waves-effect waves-light btn col s12 seccolor" id="setup">Set it up</button>
+          </div>
+
+        </div>
+
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="materialize/jquery-3.1.1.min.js"></script>
+      <script type="text/javascript" src="materialize/materialize.min.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+      <script type="text/javascript" src="newjot.js"></script>
+    </body>
+  </html>

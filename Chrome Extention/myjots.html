@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>
+        my jots
+      </title>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="materialize/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+        <nav>
+          <div class="nav-wrapper primcolor">
+            <img src="icons/icon128.png"/>
+          </div>
+        </nav>
+        <div class="container">
+          <h2 class="seccolor-text center">jotter</h2>
+          <h4 class="center tricolor-text">All the jots!<sub> (you own)</sub></h4>
+             <table>
+              <thead>
+                <tr>
+                    <th data-field="id">jot Name</th>
+                    <th data-field="name">Pointer URL</th>
+                    <th data-field="price">Source Img</th>
+                </tr>
+              </thead>
+
+              <tbody id="tablebody">
+              </tbody>
+            </table>
+          </div>
+
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="materialize/jquery-3.1.1.min.js"></script>
+      <script type="text/javascript" src="materialize/materialize.min.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+      <script type="text/javascript" src="myjots.js"></script>
+    </body>
+  </html>
