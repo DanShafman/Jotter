@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>
+        God jot
+      </title>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="materialize/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+        <nav>
+          <div class="nav-wrapper primcolor">
+            <img src="icons/icon128.png"/>
+          </div>
+        </nav>
+        <div class="container">
+          <h2 class="seccolor-text center">jotter</h2>
+          <h4 class="center tricolor-text">God jot</h4>
+          <h6 class="center jotid"></h6>
+          <h4>Add img src</h4>
+          <input type="text" id="imgsrc"/>
+          <a class="waves-effect waves-light btn col s8 right" id="addimgsrc">Add src</a>
+          <br>
+          <h4>Add img src to check</h4>
+          <input type="text" id="checksrc"/>
+          <a class="waves-effect waves-light btn col s8 right" id="checkimgsrc">Add src</a>
+          <br><br><br><br>
+          <span class="row">
+          <a class="waves-effect waves-light btn col s8 right" id="dummyjot">Create dummy jot</a>
+          </span>
+        </div>
+        
+
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="materialize/jquery-3.1.1.min.js"></script>
+      <script type="text/javascript" src="materialize/materialize.min.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+      <script type="text/javascript" src="godjot.js"></script>
+    </body>
+  </html>
