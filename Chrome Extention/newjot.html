@@ -26,11 +26,19 @@
           <div class="row">
             <span class="col s4"></span><img src="http://placehold.it/150x150" class="col s4 img"><span class="col s4"></span>
           </div>
+            <div class="row">
+          <button class="waves-effect waves-light btn col s12 secolor" id="setupnote">Set up note</button><br><br></div>
+          <div class="input-field-n col s6">
+          <label for="notes">Your notes:</label>
+          <textarea placeholder="Some notes" id="notes" class="validate"></textarea>
+          </div>
+          <div class="row">
+           <button class="waves-effect waves-light btn col s12 secolor" id="setuplink">Set up link</button><br><br></div>
           <div class="input-field col s6">
           <input placeholder="http://" val="http://" id="url" type="url" class="validate">
           <label for="url">Site Adress:</label>
           </div>
-          <div class="row">
+          <div class="row" id='setupbtn'>
            <button class="waves-effect waves-light btn col s12 seccolor" id="setup">Set it up</button>
           </div>
 
